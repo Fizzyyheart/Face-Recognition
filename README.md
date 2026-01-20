@@ -49,14 +49,15 @@ python desktop/main.py
 ```
 
 ## 📦 模型下载
-由于 GitHub 文件大小限制，本仓库未包含部分大型 ONNX 模型。
-请手动下载 `buffalo_l` 模型包并解压至 `models/buffalo_l/` 目录。
-需要确保包含以下文件：
+本项目使用 **Git LFS** 托管大型模型。
+Clone 项目时，Git LFS 会自动下载以下模型文件到 `models/buffalo_l/`：
 - `w600k_r50.onnx`
 - `1k3d68.onnx`
-- `det_10g.onnx` (已包含)
-- `2d106det.onnx` (已包含)
-- `genderage.onnx` (已包含)
+
+如果您下载的代码中这些文件只有 1KB 大小，请运行：
+```bash
+git lfs pull
+```
 
 ## 📖 使用指南
 
