@@ -1,0 +1,30 @@
+# Backend (CPU)
+# Install:
+#   conda activate face-rec
+#   pip install -r backend/requirements.cpu.txt
+
+# Web Backend (Optional if running desktop only)
+fastapi==0.128.0
+uvicorn[standard]==0.40.0
+python-multipart==0.0.21
+python-dotenv==1.2.1
+
+# Core Scientific
+opencv-python==4.12.0.88
+numpy==2.0.0
+scikit-learn==1.3.2
+hdbscan==0.8.33
+pandas>=2.0.0
+openpyxl
+
+# Desktop GUI
+PyQt6
+PyQt6-tools
+
+# Database
+SQLAlchemy
+
+# Face stack
+insightface==0.7.3
+onnx==1.14.0
+onnxruntime

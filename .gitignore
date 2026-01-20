@@ -1,0 +1,41 @@
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# ---- Logs / temp ----
+*.log
+*.tmp
+*.bak
+*.zip
+
+# ---- Runtime data (DO NOT COMMIT) ----
+VIdeo/
+*.mp4
+*.avi
+*.mov
+
+*.jpg
+*.png
+/data/
+*.db
+*.sqlite
+*.xlsx
+
+# ---- Models (Explicitly ignore large ones) ----
+models/buffalo_l/w600k_r50.onnx
+models/buffalo_l/1k3d68.onnx
+*.pth
+*.pt
